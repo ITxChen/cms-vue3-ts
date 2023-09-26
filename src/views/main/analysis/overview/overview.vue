@@ -133,83 +133,88 @@
 ├─public
 |    └── favicon.ico
 └─src
-    ├─assets
-    │  ├─css
-    │  └─img
-    ├─base-ui
-    ├─components
-    │  ├─main-header
-    │  │  └─c-cpns
-    │  ├─main-menu
-    │  ├─page-content
-    │  ├─page-echarts
-    │  │  ├─data
-    │  │  ├─src
-    │  │  └─types
-    │  ├─page-model
-    │  └─page-search
-    ├─global
-    ├─hooks
-    ├─router
-    │  ├─login
-    │  └─main
-    │      ├─analysis
-    │      │  ├─dashboard
-    │      │  └─overview
-    │      ├─product
-    │      │  ├─category
-    │      │  └─goods
-    │      ├─story
-    │      │  ├─chat
-    │      │  └─list
-    │      └─system
-    │          ├─department
-    │          ├─menu
-    │          ├─role
-    │          └─user
-    ├─service
-    │  ├─config
-    │  ├─login
-    │  ├─main
-    │  │  ├─analysis
-    │  │  └─system
-    │  ├─modules
-    │  └─request
-    ├─store
-    │  ├─login
-    │  └─main
-    │      ├─analysis
-    │      └─system
-    ├─types
-    ├─utils
-    └─views
-        ├─login
-        │  └─c-cpns
-        ├─main
-        │  ├─analysis
-        │  │  ├─dashboard
-        │  │  │  └─c-cpns
-        │  │  └─overview
-        │  │      └─config
-        │  ├─product
-        │  │  ├─category
-        │  │  │  └─config
-        │  │  └─goods
-        │  │      └─config
-        │  ├─story
-        │  │  ├─chat
-        │  │  └─list
-        │  └─system
-        │      ├─department
-        │      │  ├─c-cpns
-        │      │  └─config
-        │      ├─menu
-        │      │  └─config
-        │      ├─role
-        │      │  └─config
-        │      └─user
-        │          └─c-cpns
-        └─not-found
+  ├─assets
+  │  ├─css
+  │  └─img
+  ├─base-ui
+  ├─components
+  │  ├─main-header
+  │  │  └─c-cpns
+  │  ├─main-menu
+  │  ├─page-content
+  │  ├─page-echarts
+  │  │  ├─data
+  │  │  ├─src
+  │  │  ├─types
+  │  │  └─utils
+  │  ├─page-model
+  │  └─page-search
+  ├─global
+  ├─hooks
+  ├─router
+  │  ├─login
+  │  └─main
+  │      ├─analysis
+  │      │  ├─dashboard
+  │      │  └─overview
+  │      ├─product
+  │      │  ├─category
+  │      │  └─goods
+  │      ├─story
+  │      │  ├─chat
+  │      │  └─list
+  │      └─system
+  │          ├─department
+  │          ├─menu
+  │          ├─role
+  │          └─user
+  ├─service
+  │  ├─config
+  │  ├─login
+  │  ├─main
+  │  │  ├─analysis
+  │  │  ├─story
+  │  │  └─system
+  │  ├─modules
+  │  └─request
+  ├─store
+  │  ├─login
+  │  └─main
+  │      ├─analysis
+  │      ├─story
+  │      └─system
+  ├─types
+  ├─utils
+  └─views
+      ├─login
+      │  └─c-cpns
+      ├─main
+      │  ├─analysis
+      │  │  ├─dashboard
+      │  │  │  └─c-cpns
+      │  │  └─overview
+      │  │      └─config
+      │  ├─product
+      │  │  ├─category
+      │  │  │  └─config
+      │  │  └─goods
+      │  │      └─config
+      │  ├─story
+      │  │  ├─chat
+      │  │  └─list
+      │  │      ├─c-cpns
+      │  │      └─config
+      │  └─system
+      │      ├─department
+      │      │  ├─c-cpns
+      │      │  └─config
+      │      ├─menu
+      │      │  └─config
+      │      ├─role
+      │      │  └─config
+      │      └─user
+      │          └─c-cpns
+      └─not-found
 ├──.editorConfig
 ├──.env
 ├──.eslintrc.cjs

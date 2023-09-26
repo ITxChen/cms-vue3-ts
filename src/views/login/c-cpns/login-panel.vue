@@ -51,7 +51,6 @@ const activeName = ref<string>('account')
 const accountRef = ref<InstanceType<typeof PaneAccount>>()
 // console.log(isRemPwd.value)
 
-
 // 是否记住密码
 const isRemPwd = ref<boolean>(localCache.getCache('isRemPwd') ?? false)
 watch(isRemPwd, (newValue) => {

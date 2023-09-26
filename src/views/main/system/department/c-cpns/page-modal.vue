@@ -86,7 +86,6 @@ function handleConfirm() {
   if (!isNewRef.value && editData.value) {
     // 编辑
     systemStore.editPageDataAction('department', editData.value.id, formData)
-
   } else {
     // 新建用户
     systemStore.newPageDataAction('department', formData)

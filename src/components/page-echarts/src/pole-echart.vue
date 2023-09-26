@@ -56,7 +56,7 @@ const option = computed(() => {
 })
 
 function update() {
-  var data = option.series[0].data
+  var data = option.value.series[0].data
   for (var i = 0; i < data.length; ++i) {
     if (Math.random() > 0.9) {
       data[i] += Math.round(Math.random() * 2000)

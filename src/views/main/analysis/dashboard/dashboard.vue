@@ -19,7 +19,8 @@
       </el-col>
       <el-col :span="10">
         <chart-card :name="arr[1].name">
-          <mapEchart :map-data="goodsAdressSale" />
+          <mapEchart :map-data="showGoodsAdressSale" />
+          <!-- <PieEchart :pie-data="showGoodsCategoryCount" /> -->
         </chart-card>
       </el-col>
       <el-col :span="7">

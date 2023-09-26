@@ -18,7 +18,7 @@
       <el-dropdown>
         <span class="user-info">
           <el-avatar :size="30" src="src\assets\img\avater.jpg" />
-          <span class="name">{{username}}</span>
+          <span class="name">{{ username }}</span>
         </span>
         <template #dropdown>
           <el-dropdown-menu>

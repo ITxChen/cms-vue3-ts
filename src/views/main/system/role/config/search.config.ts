@@ -1,5 +1,5 @@
 const searchConfig = {
-  pageName:'role',
+  pageName: 'role',
   formItems: [
     {
       type: 'input',
